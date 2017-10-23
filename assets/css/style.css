@@ -1,0 +1,125 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    box-sizing: border-box;
+}
+.space-between-header{
+    margin-top:3%;
+}
+
+.heading{
+    background-color: #4aaaa5;
+    padding: 14px;
+    font-size: 28px;
+    color: white;
+}
+
+
+heading:hover{
+    color: rgb(255, 255, 255);   
+}
+
+.body-format{
+    margin: auto;
+    background-color: white;
+
+}
+
+.cBody{
+    padding:15px;
+    margin-bottom: 3%;
+}
+.cHead {
+    font-size: 24px;
+    color: #4aaaa5;
+    padding: 20px;
+
+}
+
+.cLine-break{
+    border-bottom: 1px solid;
+}
+
+#profilepic{
+    height: 400px;
+    width: 270px;
+
+}
+
+#content-heading{
+    margin-bottom: 0%;
+}
+.center-contents{
+    text-align:center;
+}
+
+
+a:hover {
+    text-decoration:none;
+}
+.icon-size {
+    height: 70px;
+    width: 70px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color:rgb(255, 255, 255);
+    border-style: none;
+}
+
+.row.content {
+    height: 450px;
+}
+
+.theme-background{
+    background-color: #4aaaa5;
+}
+
+.theme-text{
+    color: black;
+}
+
+.p-img1{
+    background-image: url("../images/image-1.jpeg")
+}
+
+.pContent{
+    margin: auto;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.pSubtitles{
+    top: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 20px;
+
+}
+
+.remove-header-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+    color:white;
+}
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+
+
